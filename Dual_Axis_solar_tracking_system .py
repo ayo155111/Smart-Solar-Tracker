@@ -7,7 +7,7 @@ import pigpio
 import asyncio
 import threading
 
-
+#Variable 
 def set_angle_h(i):
     print(i)
     pulse= (100/9)*i+500
